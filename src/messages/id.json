@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "villas": "Villa",
+    "facilities": "Fasilitas",
+    "about": "Tentang Kami",
+    "gallery": "Galeri",
+    "journal": "Cerita",
+    "contact": "Kontak",
+    "book": "Reservasi Healing"
+  },
+  "hero": {
+    "title1": "TEMUKAN",
+    "title2": "KETENANGAN",
+    "title3": "SEJATI",
+    "subtitle": "Pengalaman istirahat & healing terbaik di perbukitan sejuk Tawangmangu. Ruang privat untuk memulihkan jiwa dan raga.",
+    "cta": "Reservasi Peristirahatan"
+  },
+  "footer": {
+    "description": "Sebuah sanctuary privat di perbukitan Tawangmangu yang dirancang khusus untuk kedamaian, istirahat mendalam, dan pengalaman healing terbaik.",
+    "explore": "Jelajahi",
+    "connect": "Hubungi Kami",
+    "rights": "Hak cipta dilindungi."
+  },
+  "form": {
+    "name": "Nama",
+    "email": "Email",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "submit": "Kirim Pesan",
+    "submitting": "Mengirim...",
+    "success": "Pesan berhasil dikirim!",
+    "errors": {
+      "name": "Nama minimal 2 karakter.",
+      "email": "Mohon masukkan email yang valid.",
+      "subject": "Subjek minimal 5 karakter.",
+      "message": "Pesan minimal 10 karakter."
+    }
+  }
+}

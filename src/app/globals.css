@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif-accent: var(--font-heading), ui-serif, Georgia, serif;
+
+  --color-black: #0C0D0A;
+  --color-charcoal: #141512;
+  --color-charcoal-dark: #0A0B09;
+  
+  --color-gold: #D4AF37;
+  --color-gold-light: #F5ECD7;
+  --color-gold-dark: #B38728;
+  --color-gold-soft: #C5A059;
+  --color-gold-accent: #E5C158;
+  --color-champagne: #F8F3E6;
+
+  --color-olive: #3D3D33;
+  --color-olive-dark: #24241E;
+  --color-olive-light: #5A5A4D;
+  
+  --color-bone: #DCD4C4;
+  --color-cream: #FAF8F5;
+  --color-white: #FFFFFF;
+
+  --radius-sm: 14px;
+  --radius-md: 22px;
+  --radius-lg: 30px;
+  --radius-xl: 38px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: var(--color-cream);
+  --foreground: var(--color-charcoal);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0B09;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.7);
+}
+
+@utility text-h1 {
+  font-family: var(--font-sans);
+  font-size: 36px;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  @media (min-width: 640px) { font-size: 52px; }
+  @media (min-width: 1024px) { font-size: 76px; }
+  @media (min-width: 1440px) { font-size: 88px; }
+}
+
+@utility text-h2 {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  @media (min-width: 640px) { font-size: 38px; }
+  @media (min-width: 1024px) { font-size: 48px; }
+}
+
+@utility text-h3 {
+  font-family: var(--font-sans);
+  font-size: 22px;
+  line-height: 1.3;
+  @media (min-width: 640px) { font-size: 26px; }
+  @media (min-width: 1024px) { font-size: 30px; }
+}
+
+@utility text-body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.75;
+  @media (min-width: 1024px) { font-size: 17px; }
+}
+
+/* Advanced Minimalist Glassmorphism Utilities */
+.glass-morphism-dark {
+  background: rgba(14, 15, 12, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-morphism-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+.glass-badge {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.glass-button {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.glass-button-gold {
+  background: rgba(14, 15, 12, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.6);
+  color: #D4AF37;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25), 0 0 15px rgba(212, 175, 55, 0.15);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-button-gold:hover {
+  background: #D4AF37;
+  color: #0A0B09;
+  border-color: #F5ECD7;
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.35);
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+}
+
+/* Elegant Text Accent */
+.text-champagne-light {
+  color: #F8F3E6;
+}
+
+.text-gold-subtle {
+  color: #D4AF37;
+}
+
+/* Soft Ring Animation */
+@keyframes pulse-ring {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(212, 175, 55, 0);
+  }
+}
+
+.pulse-ring {
+  animation: pulse-ring 3s infinite;
+}
+

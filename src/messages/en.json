@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Home",
+    "villas": "Villas",
+    "facilities": "Facilities",
+    "about": "About",
+    "gallery": "Gallery",
+    "journal": "Journal",
+    "contact": "Contact",
+    "book": "Reserve Sanctuary"
+  },
+  "hero": {
+    "title1": "DISCOVER THE",
+    "title2": "ULTIMATE REST",
+    "title3": "EXPERIENCE",
+    "subtitle": "A restorative highland sanctuary in Tawangmangu. Designed for deep relaxation, healing, and absolute peace.",
+    "cta": "Reserve Your Sanctuary"
+  },
+  "footer": {
+    "description": "A private sanctuary in Tawangmangu highlands dedicated to peace, deep restorative rest, and an authentic healing retreat.",
+    "explore": "Explore",
+    "connect": "Connect",
+    "rights": "All rights reserved."
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": "Message sent successfully!",
+    "errors": {
+      "name": "Name must be at least 2 characters.",
+      "email": "Please enter a valid email address.",
+      "subject": "Subject must be at least 5 characters.",
+      "message": "Message must be at least 10 characters."
+    }
+  }
+}
