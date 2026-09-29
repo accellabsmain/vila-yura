@@ -104,12 +104,12 @@ export default function FacilitiesPage() {
             ✦ EXCLUSIVE AMENITIES ✦
           </span>
           <h1 className="text-h1 font-heading text-charcoal font-medium mb-6">
-            {isId ? "Fasilitas Vila Yura" : "Vila Yura Facilities"}
+            {isId ? "Fasilitas Yura Villa" : "Yura Villa Facilities"}
           </h1>
           <p className="text-body text-charcoal/80 text-lg font-light leading-relaxed">
             {isId
-              ? "Setiap sudut dan fasilitas Vila Yura dirancang khusus untuk menjamin kenyamanan, privasi, dan kebahagiaan Anda selama menginap di Tawangmangu."
-              : "Every space and feature at Vila Yura is tailored to ensure your complete privacy, relaxation, and memorable stay."}
+              ? "Setiap sudut dan fasilitas Yura Villa dirancang khusus untuk menjamin kenyamanan, privasi, dan kebahagiaan Anda selama menginap di Tawangmangu."
+              : "Every space and feature at Yura Villa is tailored to ensure your complete privacy, relaxation, and memorable stay."}
           </p>
         </Reveal>
 
@@ -185,7 +185,7 @@ export default function FacilitiesPage() {
                   : "Our concierge team is available to assist with any questions regarding villa layout and booking."}
               </p>
               <a
-                href={getWhatsAppLink("Halo Vila Yura, saya ingin menanyakan detail fasilitas dan booking.")}
+                href={getWhatsAppLink("Halo Yura Villa, saya ingin menanyakan detail fasilitas dan booking.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-gold via-gold-light to-gold text-charcoal-dark font-semibold text-xs uppercase tracking-widest px-8 py-4 rounded-full shadow-xl hover:scale-105 transition-transform"

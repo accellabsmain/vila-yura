@@ -52,8 +52,10 @@ export function Introduction({ title, text, subtitle }: { title: string; text: s
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl gold-border-glow">
                 <Image
                   src="/images/depan2.jpg"
-                  alt="Vila Yura Exterior Depan"
+                  alt="Yura Villa Exterior Depan"
                   fill
+                  loading="lazy"
+                  quality={80}
                   className="object-cover hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
@@ -61,7 +63,7 @@ export function Introduction({ title, text, subtitle }: { title: string; text: s
                 
                 {/* Floating Badge */}
                 <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl glass-dark backdrop-blur-md border border-white/10 text-white">
-                  <span className="text-xs text-gold uppercase tracking-widest block mb-1">Vila Yura Sanctuary</span>
+                  <span className="text-xs text-gold uppercase tracking-widest block mb-1">Yura Villa Sanctuary</span>
                   <p className="text-sm font-light">Arsitektur elegan dengan sentuhan kenyamanan bintang lima.</p>
                 </div>
               </div>

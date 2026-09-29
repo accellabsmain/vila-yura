@@ -12,7 +12,7 @@ export function AboutSnippet({ locale }: { locale: string }) {
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <Reveal variant="fadeUp">
             <span className="text-xs uppercase tracking-[0.25em] text-gold-dark font-sans font-semibold block mb-3">
-              {isId ? "✦ TENTANG VILA YURA ✦" : "✦ ABOUT VILA YURA ✦"}
+              {isId ? "✦ TENTANG YURA VILLA ✦" : "✦ ABOUT YURA VILLA ✦"}
             </span>
             <h2 className="text-h2 font-sans font-semibold">
               {isId ? "Harmoni Alam & Tempat Peristirahatan Sejati" : "Harmony of Nature & Restorative Sanctuary"}
@@ -22,8 +22,8 @@ export function AboutSnippet({ locale }: { locale: string }) {
           <Reveal variant="fadeUp" delay={0.2}>
             <p className="text-body text-charcoal/80 text-lg sm:text-xl font-light leading-relaxed">
               {isId 
-                ? "Terletak di kawasan Tawangmangu yang sejuk dan tenang, Vila Yura bukan sekadar tempat menginap, melainkan sebuah sanctuary untuk melepaskan beban dan memulihkan energi. Kami merancang setiap sudut vila dengan nuansa hangat dan privat, menciptakan tempat tinggal yang damai untuk liburan istirahat terbaik Anda."
-                : "Nestled in the tranquil highlands of Tawangmangu, Vila Yura is more than just a getaway—it is a dedicated sanctuary for slow living and deep restorative rest. Every space is thoughtfully designed to offer peace of mind, privacy, and authentic healing for you and your family."}
+                ? "Terletak di kawasan Tawangmangu yang sejuk dan tenang, Yura Villa bukan sekadar tempat menginap, melainkan sebuah sanctuary untuk melepaskan beban dan memulihkan energi. Kami merancang setiap sudut vila dengan nuansa hangat dan privat, menciptakan tempat tinggal yang damai untuk liburan istirahat terbaik Anda."
+                : "Nestled in the tranquil highlands of Tawangmangu, Yura Villa is more than just a getaway—it is a dedicated sanctuary for slow living and deep restorative rest. Every space is thoughtfully designed to offer peace of mind, privacy, and authentic healing for you and your family."}
             </p>
           </Reveal>
         </div>

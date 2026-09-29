@@ -23,11 +23,11 @@ export const hilltopVilla: Villa = {
     { icon: "wifi", label: { en: "High-Speed WiFi", id: "WiFi Berkecepatan Tinggi" } }
   ],
   images: [
-    { src: "/images/depan2.jpg", alt: { en: "Vila Yura - Exterior Front 2", id: "Vila Yura - Tampak Depan 2" }, width: 1920, height: 1080 },
-    { src: "/images/kolam.jpg", alt: { en: "Vila Yura - Relaxing Pool", id: "Vila Yura - Area Kolam Santai" }, width: 1920, height: 1080 },
-    { src: "/images/kamar1.jpg", alt: { en: "Vila Yura - Cozy Bedroom", id: "Vila Yura - Kamar Tidur Nyaman" }, width: 1920, height: 1080 },
-    { src: "/images/initlounge.jpg", alt: { en: "Vila Yura - Inner Lounge", id: "Vila Yura - Lounge Dalam" }, width: 1920, height: 1080 },
-    { src: "/images/bonsai.jpg", alt: { en: "Vila Yura - Bonsai Garden", id: "Vila Yura - Taman Bonsai" }, width: 1920, height: 1080 }
+    { src: "/images/depan2.jpg", alt: { en: "Yura Villa - Exterior Front 2", id: "Yura Villa - Tampak Depan 2" }, width: 1920, height: 1080 },
+    { src: "/images/kolam.jpg", alt: { en: "Yura Villa - Relaxing Pool", id: "Yura Villa - Area Kolam Santai" }, width: 1920, height: 1080 },
+    { src: "/images/kamar1.jpg", alt: { en: "Yura Villa - Cozy Bedroom", id: "Yura Villa - Kamar Tidur Nyaman" }, width: 1920, height: 1080 },
+    { src: "/images/initlounge.jpg", alt: { en: "Yura Villa - Inner Lounge", id: "Yura Villa - Lounge Dalam" }, width: 1920, height: 1080 },
+    { src: "/images/bonsai.jpg", alt: { en: "Yura Villa - Bonsai Garden", id: "Yura Villa - Taman Bonsai" }, width: 1920, height: 1080 }
   ],
   featured: true
 };

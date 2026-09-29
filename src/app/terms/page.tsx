@@ -7,8 +7,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: isId ? "Syarat & Ketentuan" : "Terms of Service",
     description: isId
-      ? "Syarat dan Ketentuan reservasi dan aturan menginap di Vila Yura Tawangmangu."
-      : "Terms of Service and stay guidelines for Vila Yura Tawangmangu.",
+      ? "Syarat dan Ketentuan reservasi dan aturan menginap di Yura Villa Tawangmangu."
+      : "Terms of Service and stay guidelines for Yura Villa Tawangmangu.",
   };
 }
 
@@ -23,7 +23,7 @@ export default function TermsPage() {
             ✦ TERMS OF STAY ✦
           </span>
           <h1 className="text-h2 font-sans font-bold text-charcoal mb-4">
-            {isId ? "Syarat & Ketentuan Vila Yura" : "Vila Yura Terms of Service"}
+            {isId ? "Syarat & Ketentuan Yura Villa" : "Yura Villa Terms of Service"}
           </h1>
           <p className="text-xs text-charcoal/60 uppercase tracking-widest">
             {isId ? "Terakhir Diperbarui: September 2026" : "Last Updated: September 2026"}
@@ -36,7 +36,7 @@ export default function TermsPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">1. Ketentuan Umum Menginap</h2>
                 <p>
-                  Dengan melakukan reservasi di Vila Yura Tawangmangu, tamu dianggap telah membaca, memahami, dan menyetujui seluruh Syarat & Ketentuan yang berlaku demi menjaga kenyamanan, keamanan, dan ketenangan bersama di area sanctuary.
+                  Dengan melakukan reservasi di Yura Villa Tawangmangu, tamu dianggap telah membaca, memahami, dan menyetujui seluruh Syarat & Ketentuan yang berlaku demi menjaga kenyamanan, keamanan, dan ketenangan bersama di area sanctuary.
                 </p>
               </section>
 
@@ -52,7 +52,7 @@ export default function TermsPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">3. Kapasitas & Penggunaan Fasilitas</h2>
                 <ul className="list-disc pl-6 space-y-2 text-sm">
-                  <li>Vila Yura memiliki 5 kamar tidur suite privat dengan kapasitas ideal hingga 15+ tamu.</li>
+                  <li>Yura Villa memiliki 5 kamar tidur suite privat dengan kapasitas ideal hingga 15+ tamu.</li>
                   <li>Fasilitas kolam renang privat, meja biliar, dan area lounge khusus diperuntukkan bagi tamu terdaftar.</li>
                   <li>Tamu diharapkan menjaga kebersihan dan tidak merusak fasilitas vila.</li>
                 </ul>
@@ -61,7 +61,7 @@ export default function TermsPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">4. Ketenangan & Privasi Lingkungan</h2>
                 <p>
-                  Vila Yura dirancang sebagai tempat istirahat dan healing sejati. Tamu dimohon untuk menjaga ketenangan lingkungan pegunungan Tawangmangu dan membatasi suara keras setelah pukul 22.00 WIB demi kenyamanan sekitar.
+                  Yura Villa dirancang sebagai tempat istirahat dan healing sejati. Tamu dimohon untuk menjaga ketenangan lingkungan pegunungan Tawangmangu dan membatasi suara keras setelah pukul 22.00 WIB demi kenyamanan sekitar.
                 </p>
               </section>
 
@@ -77,7 +77,7 @@ export default function TermsPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">1. General Stay Conditions</h2>
                 <p>
-                  By completing a reservation at Vila Yura Tawangmangu, guests agree to abide by these Terms of Service to ensure a peaceful, safe, and memorable restorative stay for everyone.
+                  By completing a reservation at Yura Villa Tawangmangu, guests agree to abide by these Terms of Service to ensure a peaceful, safe, and memorable restorative stay for everyone.
                 </p>
               </section>
 
@@ -93,7 +93,7 @@ export default function TermsPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">3. Capacity & Amenity Usage</h2>
                 <ul className="list-disc pl-6 space-y-2 text-sm">
-                  <li>Vila Yura features 5 executive bedroom suites, comfortably hosting up to 15+ guests.</li>
+                  <li>Yura Villa features 5 executive bedroom suites, comfortably hosting up to 15+ guests.</li>
                   <li>Private pool, billiard table, and living lounges are strictly for registered staying guests.</li>
                   <li>Guests are kindly requested to take care of all villa amenities.</li>
                 </ul>
@@ -102,7 +102,7 @@ export default function TermsPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">4. Peace & Environment Respect</h2>
                 <p>
-                  Vila Yura is dedicated to deep relaxation and healing. Guests are asked to respect the serene mountain environment of Tawangmangu and keep noise levels low after 22:00 WIB.
+                  Yura Villa is dedicated to deep relaxation and healing. Guests are asked to respect the serene mountain environment of Tawangmangu and keep noise levels low after 22:00 WIB.
                 </p>
               </section>
 

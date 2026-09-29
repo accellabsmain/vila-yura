@@ -19,26 +19,26 @@ export async function generateMetadata(): Promise<Metadata> {
   const loc: Locale = "id";
   const messages = getMessages(loc);
 
-  const title = "Vila Yura Tawangmangu | Rest & Healing Sanctuary Privat di Perbukitan";
+  const title = "Yura Villa Tawangmangu | Rest & Healing Sanctuary Privat di Perbukitan";
 
   const description = messages.footer.description ||
-    "Vila Yura Tawangmangu adalah sanctuary peristirahatan privat dengan 5 kamar tidur suite, kolam renang privat, lounge biliar, dan kolam koi di perbukitan sejuk Tawangmangu.";
+    "Yura Villa Tawangmangu adalah sanctuary peristirahatan privat dengan 5 kamar tidur suite, kolam renang privat, lounge biliar, dan kolam koi di perbukitan sejuk Tawangmangu.";
 
   return {
     metadataBase: new URL(SITE_URL),
     title: {
-      template: "%s | Vila Yura Tawangmangu",
+      template: "%s | Yura Villa Tawangmangu",
       default: title,
     },
     description: description,
     keywords: [
-      "Vila Yura", "Villa Yura Tawangmangu", "Sewa Villa Tawangmangu", 
+      "Yura Villa", "Yura Villa Tawangmangu", "Sewa Villa Tawangmangu", 
       "Villa Kolam Renang Privat Tawangmangu", "Penginapan Tawangmangu 5 Kamar", 
       "Sanctuary Healing Tawangmangu", "Villa Mewah Karanganyar"
     ],
-    authors: [{ name: "Vila Yura Team", url: SITE_URL }],
-    creator: "Vila Yura Tawangmangu",
-    publisher: "Vila Yura Tawangmangu",
+    authors: [{ name: "Yura Villa Team", url: SITE_URL }],
+    creator: "Yura Villa Tawangmangu",
+    publisher: "Yura Villa Tawangmangu",
     alternates: {
       canonical: SITE_URL,
     },
@@ -63,13 +63,13 @@ export async function generateMetadata(): Promise<Metadata> {
       title: title,
       description: description,
       url: SITE_URL,
-      siteName: "Vila Yura Tawangmangu",
+      siteName: "Yura Villa Tawangmangu",
       images: [
         {
           url: `${SITE_URL}/images/depan1.jpg`,
           width: 1200,
           height: 630,
-          alt: "Vila Yura Tawangmangu Rest Sanctuary",
+          alt: "Yura Villa Tawangmangu Rest Sanctuary",
         },
       ],
       locale: "id_ID",
@@ -95,7 +95,7 @@ export default async function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
-    "name": "Vila Yura Tawangmangu",
+    "name": "Yura Villa Tawangmangu",
     "image": `${SITE_URL}/images/depan1.jpg`,
     "@id": SITE_URL,
     "url": SITE_URL,

@@ -21,14 +21,14 @@ export default function HomePage() {
         title3={messages.hero.title3}
         subtitle={messages.hero.subtitle}
         ctaText={messages.hero.cta}
-        image={{ src: "/images/depan1.jpg", alt: "Vila Yura Rest Sanctuary" }}
+        image={{ src: "/images/depan1.jpg", alt: "Yura Villa Rest Sanctuary" }}
         locale={loc}
       />
 
       <Introduction
         subtitle="SANCTUARY HEALING DI TAWANGMANGU"
         title="PENGALAMAN ISTIRAHAT & HEALING SEJATI"
-        text="Lepaskan penat dan pulihkan kebugaran jiwa serta raga Anda di Vila Yura. Terletak di perbukitan Tawangmangu yang sejuk, sanctuary privat kami menghadirkan ketenangan alam murni, 5 kamar tidur nyaman, kolam renang privat, lounge biliar, dan suasana kolam koi yang menenangkan."
+        text="Lepaskan penat dan pulihkan kebugaran jiwa serta raga Anda di Yura Villa. Terletak di perbukitan Tawangmangu yang sejuk, sanctuary privat kami menghadirkan ketenangan alam murni, 5 kamar tidur nyaman, kolam renang privat, lounge biliar, dan suasana kolam koi yang menenangkan."
       />
 
       <LuxuryFacilities locale={loc} />

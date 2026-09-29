@@ -21,8 +21,8 @@ interface GalleryItem {
 
 const GALLERY_ITEMS: GalleryItem[] = [
   // Exterior
-  { id: "depan1", src: "/images/depan1.jpg", category: "exterior", title: { en: "Main Villa Front View (Depan 1)", id: "Tampak Depan Utama Vila Yura (Depan 1)" } },
-  { id: "depan2", src: "/images/depan2.jpg", category: "exterior", title: { en: "Villa Front View Angle 2", id: "Tampak Depan Vila Yura (Depan 2)" } },
+  { id: "depan1", src: "/images/depan1.jpg", category: "exterior", title: { en: "Main Villa Front View (Depan 1)", id: "Tampak Depan Utama Yura Villa (Depan 1)" } },
+  { id: "depan2", src: "/images/depan2.jpg", category: "exterior", title: { en: "Villa Front View Angle 2", id: "Tampak Depan Yura Villa (Depan 2)" } },
   { id: "carpot", src: "/images/carpot.jpg", category: "exterior", title: { en: "Main Carport Area", id: "Area Carport Utama" } },
   { id: "carpotsamping", src: "/images/carpotsamping.jpg", category: "exterior", title: { en: "Side Carport Area 1", id: "Area Carport Samping 1" } },
   { id: "carpotsamping2", src: "/images/carpotsamping2.jpg", category: "exterior", title: { en: "Side Carport Area 2", id: "Area Carport Samping 2" } },
@@ -116,12 +116,12 @@ export function GalleryGrid({ locale }: { locale: string }) {
             ✦ OFFICIAL PHOTO COLLECTION ✦
           </span>
           <h1 className="text-h1 font-sans font-semibold text-charcoal mb-4">
-            {isId ? "Galeri Resmi Vila Yura" : "Vila Yura Official Gallery"}
+            {isId ? "Galeri Resmi Yura Villa" : "Yura Villa Official Gallery"}
           </h1>
           <p className="text-body font-sans text-charcoal/80 text-lg font-light leading-relaxed">
             {isId
-              ? "Jelajahi keindahan setiap sudut Vila Yura melalui koleksi foto asli kami di Tawangmangu."
-              : "Explore every detail of Vila Yura through our high-resolution official photo collection."}
+              ? "Jelajahi keindahan setiap sudut Yura Villa melalui koleksi foto asli kami di Tawangmangu."
+              : "Explore every detail of Yura Villa through our high-resolution official photo collection."}
           </p>
         </Reveal>
 
@@ -169,6 +169,8 @@ export function GalleryGrid({ locale }: { locale: string }) {
                   src={item.src}
                   alt={isId ? item.title.id : item.title.en}
                   fill
+                  loading="lazy"
+                  quality={80}
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />

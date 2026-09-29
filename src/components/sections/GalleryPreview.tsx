@@ -27,7 +27,7 @@ const HIGHLIGHT_ITEMS: GalleryItem[] = [
     id: "depan1",
     src: "/images/depan1.jpg",
     category: "exterior",
-    title: { en: "Main Villa Exterior Front", id: "Tampak Depan Utama Vila Yura" },
+    title: { en: "Main Villa Exterior Front", id: "Tampak Depan Utama Yura Villa" },
     tag: { en: "Villa Exterior", id: "Tampak Depan" },
     aspectClass: "col-span-1 md:col-span-2 row-span-2 aspect-[16/10] md:aspect-auto",
   },
@@ -155,7 +155,7 @@ export function GalleryPreview({ locale }: { locale: string }) {
             <div className="flex items-center gap-2 mb-3">
               <span className="w-6 h-[1.5px] bg-gold" />
               <span className="text-xs uppercase tracking-[0.25em] text-gold-dark font-sans font-semibold">
-                {isId ? "✦ KOLEKSI FOTO ASLI VILA YURA ✦" : "✦ VILA YURA PHOTO HIGHLIGHTS ✦"}
+                {isId ? "✦ KOLEKSI FOTO ASLI YURA VILLA ✦" : "✦ YURA VILLA PHOTO HIGHLIGHTS ✦"}
               </span>
             </div>
             <h2 className="text-h2 font-sans font-semibold text-charcoal mb-4">
@@ -163,8 +163,8 @@ export function GalleryPreview({ locale }: { locale: string }) {
             </h2>
             <p className="text-body font-sans text-charcoal/80 text-base sm:text-lg font-light leading-relaxed">
               {isId
-                ? "Jelajahi keasrian suasana, keindahan kolam renang privat, dan kemewahan lounge interior Vila Yura secara interaktif."
-                : "Explore the serene atmosphere, private swimming pool, and luxury interior lounge of Vila Yura interactively."}
+                ? "Jelajahi keasrian suasana, keindahan kolam renang privat, dan kemewahan lounge interior Yura Villa secara interaktif."
+                : "Explore the serene atmosphere, private swimming pool, and luxury interior lounge of Yura Villa interactively."}
             </p>
           </Reveal>
 
@@ -251,6 +251,8 @@ export function GalleryPreview({ locale }: { locale: string }) {
                     src={item.src}
                     alt={isId ? item.title.id : item.title.en}
                     fill
+                    loading="lazy"
+                    quality={80}
                     className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />

@@ -78,6 +78,8 @@ function AutoSlideCard({ facility, isId }: { facility: FacilityCardProps; isId: 
             src={facility.images[currentIdx]}
             alt={isId ? facility.title.id : facility.title.en}
             fill
+            loading="lazy"
+            quality={80}
             className="object-cover group-hover:scale-108 transition-transform duration-700"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />

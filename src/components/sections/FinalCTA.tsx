@@ -1,7 +1,6 @@
 import { Reveal } from "../motion/Reveal";
 import { Container } from "../ui/Container";
 import Image from "next/image";
-import { getWhatsAppLink } from "@/lib/constants";
 
 export function FinalCTA({
   title,
@@ -12,6 +11,7 @@ export function FinalCTA({
   ctaText: string;
   image?: { src: string; alt: string };
 }) {
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "628123456789";
   const bgImage = image?.src || "/images/depan1.jpg";
   const cleanCtaText = ctaText ? ctaText.replace(/→/g, "").trim() : "Reservasi Healing";
 
@@ -21,8 +21,10 @@ export function FinalCTA({
       <div className="absolute inset-0 z-0">
         <Image
           src={bgImage}
-          alt="Vila Yura Sanctuary"
+          alt="Yura Villa Sanctuary"
           fill
+          loading="lazy"
+          quality={80}
           className="object-cover brightness-[0.35]"
           sizes="100vw"
         />
@@ -38,12 +40,12 @@ export function FinalCTA({
             {title}
           </h2>
           <p className="text-body font-sans text-white/85 max-w-xl mx-auto mb-10 text-lg font-light leading-relaxed">
-            Hubungi tim concierge kami untuk memeriksa ketersediaan tanggal dan merencanakan waktu istirahat privat Anda di Tawangmangu.
+            Hubungi tim kami untuk memeriksa ketersediaan tanggal dan merencanakan waktu istirahat privat Anda di Tawangmangu.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={getWhatsAppLink("Halo Vila Yura, saya ingin bertanya mengenai reservasi.")}
+              href={`https://wa.me/${whatsappNumber}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 glass-button-gold font-sans font-semibold text-xs sm:text-sm uppercase tracking-widest px-10 py-4.5 rounded-full shadow-xl hover:scale-105 transition-all group"

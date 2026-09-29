@@ -7,8 +7,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: isId ? "Kebijakan Privasi" : "Privacy Policy",
     description: isId
-      ? "Kebijakan Privasi Vila Yura mengenai perlindungan data pribadi dan privasi tamu menginap di Tawangmangu."
-      : "Privacy Policy of Vila Yura regarding personal data protection and guest privacy in Tawangmangu.",
+      ? "Kebijakan Privasi Yura Villa mengenai perlindungan data pribadi dan privasi tamu menginap di Tawangmangu."
+      : "Privacy Policy of Yura Villa regarding personal data protection and guest privacy in Tawangmangu.",
   };
 }
 
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             ✦ LEGAL & PRIVACY ✦
           </span>
           <h1 className="text-h2 font-sans font-bold text-charcoal mb-4">
-            {isId ? "Kebijakan Privasi Vila Yura" : "Vila Yura Privacy Policy"}
+            {isId ? "Kebijakan Privasi Yura Villa" : "Yura Villa Privacy Policy"}
           </h1>
           <p className="text-xs text-charcoal/60 uppercase tracking-widest">
             {isId ? "Terakhir Diperbarui: September 2026" : "Last Updated: September 2026"}
@@ -36,7 +36,7 @@ export default function PrivacyPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">1. Komitmen Privasi Kami</h2>
                 <p>
-                  Di Vila Yura Tawangmangu, kami sangat menghargai privasi dan keamanan informasi pribadi setiap tamu. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi yang Anda berikan saat melakukan reservasi atau berkomunikasi dengan layanan concierge kami.
+                  Di Yura Villa Tawangmangu, kami sangat menghargai privasi dan keamanan informasi pribadi setiap tamu. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi yang Anda berikan saat melakukan reservasi atau berkomunikasi dengan layanan concierge kami.
                 </p>
               </section>
 
@@ -65,7 +65,7 @@ export default function PrivacyPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">4. Kerahasiaan & Keamanan Data</h2>
                 <p>
-                  Vila Yura menjamin bahwa data pribadi Anda tidak akan pernah dijual, disewakan, atau dibagikan kepada pihak ketiga mana pun tanpa persetujuan Anda, kecuali jika diwajibkan oleh hukum yang berlaku di Republik Indonesia.
+                  Yura Villa menjamin bahwa data pribadi Anda tidak akan pernah dijual, disewakan, atau dibagikan kepada pihak ketiga mana pun tanpa persetujuan Anda, kecuali jika diwajibkan oleh hukum yang berlaku di Republik Indonesia.
                 </p>
               </section>
 
@@ -85,7 +85,7 @@ export default function PrivacyPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">1. Our Privacy Commitment</h2>
                 <p>
-                  At Vila Yura Tawangmangu, we deeply value the privacy and security of every guest’s personal information. This Privacy Policy outlines how we collect, use, and safeguard the personal data provided when booking or communicating with our concierge team.
+                  At Yura Villa Tawangmangu, we deeply value the privacy and security of every guest’s personal information. This Privacy Policy outlines how we collect, use, and safeguard the personal data provided when booking or communicating with our concierge team.
                 </p>
               </section>
 
@@ -95,7 +95,7 @@ export default function PrivacyPage() {
                 <ul className="list-disc pl-6 space-y-2 text-sm">
                   <li>Full name and contact details (WhatsApp number, email address).</li>
                   <li>Reservation stay dates and number of guests.</li>
-                  <li>Special requests or amenity preferences for your stay at Vila Yura.</li>
+                  <li>Special requests or amenity preferences for your stay at Yura Villa.</li>
                 </ul>
               </section>
 
@@ -112,7 +112,7 @@ export default function PrivacyPage() {
               <section className="space-y-3">
                 <h2 className="text-xl font-semibold text-charcoal">4. Data Confidentiality & Security</h2>
                 <p>
-                  Vila Yura guarantees that your personal information will never be sold, rented, or shared with third parties without your explicit consent, unless required by applicable law in Indonesia.
+                  Yura Villa guarantees that your personal information will never be sold, rented, or shared with third parties without your explicit consent, unless required by applicable law in Indonesia.
                 </p>
               </section>
 

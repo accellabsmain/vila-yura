@@ -16,7 +16,7 @@ export function Footer({ messages, locale }: { messages: Record<string, string>;
           <div className="md:col-span-5 space-y-6">
             <div className="flex flex-col">
               <span className="text-3xl font-sans font-bold tracking-[0.25em] text-white">
-                VILA YURA
+                YURA VILLA
               </span>
               <span className="text-xs uppercase tracking-[0.35em] text-gold font-sans font-medium mt-1">
                 Tawangmangu Highlands
@@ -29,7 +29,7 @@ export function Footer({ messages, locale }: { messages: Record<string, string>;
 
             <div className="pt-2">
               <a
-                href={getWhatsAppLink("Halo Vila Yura, saya ingin menghubungi tim anda.")}
+                href={getWhatsAppLink("Halo Yura Villa, saya ingin menghubungi tim anda.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 glass-button-gold text-xs font-sans font-semibold uppercase tracking-widest px-6 py-3 rounded-full hover:scale-105 transition-all duration-300 shadow-md group"
@@ -99,7 +99,7 @@ export function Footer({ messages, locale }: { messages: Record<string, string>;
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs font-sans text-white/50">
-          <p>&copy; {new Date().getFullYear()} Vila Yura. {messages.rights || "Hak cipta dilindungi."}</p>
+          <p>&copy; {new Date().getFullYear()} Yura Villa. {messages.rights || "Hak cipta dilindungi."}</p>
           <div className="flex gap-6 mt-4 sm:mt-0">
             <Link href="/privacy" className="hover:text-gold transition-colors">
               Privacy Policy

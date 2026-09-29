@@ -23,11 +23,11 @@ export const oceanViewVilla: Villa = {
     { icon: "view", label: { en: "Ocean View", id: "Pemandangan Laut" } }
   ],
   images: [
-    { src: "/images/depan1.jpg", alt: { en: "Vila Yura - Main Exterior Front", id: "Vila Yura - Tampak Depan Utama" }, width: 1920, height: 1080 },
-    { src: "/images/kolamrenang1.jpg", alt: { en: "Vila Yura - Swimming Pool", id: "Vila Yura - Kolam Renang" }, width: 1920, height: 1080 },
-    { src: "/images/mainlounge.jpg", alt: { en: "Vila Yura - Main Lounge", id: "Vila Yura - Lounge Utama" }, width: 1920, height: 1080 },
-    { src: "/images/kamarlandscape.jpg", alt: { en: "Vila Yura - Bedroom Suite", id: "Vila Yura - Kamar Tidur Utama" }, width: 1920, height: 1080 },
-    { src: "/images/mejabl.jpg", alt: { en: "Vila Yura - Billiard & Entertainment Area", id: "Vila Yura - Area Meja Biliar" }, width: 1920, height: 1080 }
+    { src: "/images/depan1.jpg", alt: { en: "Yura Villa - Main Exterior Front", id: "Yura Villa - Tampak Depan Utama" }, width: 1920, height: 1080 },
+    { src: "/images/kolamrenang1.jpg", alt: { en: "Yura Villa - Swimming Pool", id: "Yura Villa - Kolam Renang" }, width: 1920, height: 1080 },
+    { src: "/images/mainlounge.jpg", alt: { en: "Yura Villa - Main Lounge", id: "Yura Villa - Lounge Utama" }, width: 1920, height: 1080 },
+    { src: "/images/kamarlandscape.jpg", alt: { en: "Yura Villa - Bedroom Suite", id: "Yura Villa - Kamar Tidur Utama" }, width: 1920, height: 1080 },
+    { src: "/images/mejabl.jpg", alt: { en: "Yura Villa - Billiard & Entertainment Area", id: "Yura Villa - Area Meja Biliar" }, width: 1920, height: 1080 }
   ],
   featured: true
 };

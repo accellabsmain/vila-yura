@@ -9,8 +9,8 @@ export function Reviews({ locale }: { locale: string }) {
       name: "Hendra & Family",
       location: "Jakarta Selatan",
       text: isId
-        ? "Vila Yura benar-benar spektakuler! Kolam renang privat, area biliar privat, dan pemandangan perbukitan Tawangmangu sangat memanjakan. Tim kami 24 jam sangat responsif."
-        : "Vila Yura is truly spectacular! The private pool, private billiard area, and Tawangmangu valley views are breathtaking. 24/7 concierge service was top-notch.",
+        ? "Yura Villa benar-benar spektakuler! Kolam renang privat, area biliar privat, dan pemandangan perbukitan Tawangmangu sangat memanjakan. Tim kami 24 jam sangat responsif."
+        : "Yura Villa is truly spectacular! The private pool, private billiard area, and Tawangmangu valley views are breathtaking. 24/7 concierge service was top-notch.",
       rating: 5,
       date: "Agustus 2026",
     },
@@ -44,7 +44,7 @@ export function Reviews({ locale }: { locale: string }) {
             {isId ? "✦ ULASAN & PENGALAMAN TAMU ✦" : "✦ GUEST EXPERIENCES ✦"}
           </span>
           <h2 className="text-h2 font-sans font-semibold">
-            {isId ? "Kepuasan Tamu Vila Yura" : "What Our Guests Say"}
+            {isId ? "Kepuasan Tamu Yura Villa" : "What Our Guests Say"}
           </h2>
         </Reveal>
 

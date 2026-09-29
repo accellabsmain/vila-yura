@@ -43,7 +43,7 @@ export function MobileMenu({ isOpen, onClose, links, messages }: MobileMenuProps
           <div className="flex items-center justify-between">
             <Link href="/" className="flex flex-col" onClick={onClose}>
               <span className="text-2xl font-sans font-bold text-white tracking-[0.2em]">
-                VILA YURA
+                YURA VILLA
               </span>
               <span className="text-[9px] uppercase tracking-[0.3em] text-gold font-sans font-medium -mt-1">
                 Tawangmangu Highlands
@@ -94,7 +94,7 @@ export function MobileMenu({ isOpen, onClose, links, messages }: MobileMenuProps
               </div>
 
               <a
-                href={getWhatsAppLink("Halo Vila Yura, saya ingin mereservasi villa.")}
+                href={getWhatsAppLink("Halo Yura Villa, saya ingin mereservasi villa.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full text-center glass-button-gold font-sans font-semibold text-xs uppercase tracking-widest px-6 py-4 rounded-full shadow-lg hover:scale-[1.02] transition-all"
@@ -106,7 +106,7 @@ export function MobileMenu({ isOpen, onClose, links, messages }: MobileMenuProps
 
           {/* Footer Info */}
           <div className="text-xs font-sans text-white/50 border-t border-gold/20 pt-4 flex justify-between items-center">
-            <span>Vila Yura © {new Date().getFullYear()}</span>
+            <span>Yura Villa © {new Date().getFullYear()}</span>
             <span className="text-gold uppercase tracking-wider text-[10px]">Tawangmangu</span>
           </div>
         </motion.div>

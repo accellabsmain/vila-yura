@@ -16,8 +16,8 @@ export function FloatingWhatsApp({ locale = "id" }: { locale?: string }) {
       <a
         href={getWhatsAppLink(
           isId
-            ? "Halo Vila Yura, saya ingin bertanya tentang ketersediaan dan booking villa."
-            : "Hello Vila Yura, I would like to inquire about villa availability and booking."
+            ? "Halo Yura Villa, saya ingin bertanya tentang ketersediaan dan booking villa."
+            : "Hello Yura Villa, I would like to inquire about villa availability and booking."
         )}
         target="_blank"
         rel="noopener noreferrer"

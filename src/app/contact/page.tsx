@@ -31,7 +31,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-body text-charcoal/80 text-lg font-light leading-relaxed">
             {loc === "id"
-              ? "Hubungi tim kami untuk pertanyaan, penawaran khusus, atau bantuan reservasi Vila Yura."
+              ? "Hubungi tim kami untuk pertanyaan, penawaran khusus, atau bantuan reservasi Yura Villa."
               : "Reach out to our dedicated concierge team for inquiries or booking assistance."}
           </p>
         </Reveal>

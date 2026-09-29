@@ -5,14 +5,14 @@ export function LocationMap({ locale }: { locale: string }) {
   const isId = locale === 'id';
   
   return (
-    <section className="py-24 bg-white">
+    <section id="location-map-section" className="py-24 bg-white scroll-mt-24">
       <Container>
         <Reveal variant="fadeUp" className="text-center mb-16">
           <h2 className="text-sm font-medium tracking-widest uppercase mb-4 text-olive">
             {isId ? "Lokasi Kami" : "Our Location"}
           </h2>
           <h3 className="text-h2 font-heading">
-            {isId ? "Temukan Vila Yura" : "Find Vila Yura"}
+            {isId ? "Temukan Yura Villa" : "Find Yura Villa"}
           </h3>
           <p className="mt-4 text-body max-w-2xl mx-auto">
             Jl. Pancot Lor No.rt02/05, Jetis, Kalisoro, Kec. Tawangmangu, Kabupaten Karanganyar, Jawa Tengah 57792

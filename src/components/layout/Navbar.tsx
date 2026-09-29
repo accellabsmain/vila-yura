@@ -46,7 +46,7 @@ export function Navbar({ messages, locale }: { messages: Record<string, string>;
         <Container className="flex items-center justify-between">
           <Link href="/" className="group flex flex-col">
             <span className="text-2xl font-sans font-bold text-white tracking-[0.2em] group-hover:text-gold transition-colors">
-              VILA YURA
+              YURA VILLA
             </span>
             <span className="text-[9px] uppercase tracking-[0.35em] text-gold font-sans font-semibold -mt-1">
               Tawangmangu Highlands
@@ -69,7 +69,7 @@ export function Navbar({ messages, locale }: { messages: Record<string, string>;
           <div className="hidden md:flex items-center gap-6">
             <LanguageSwitcher className="text-white/90 hover:text-champagne-light" />
             <a
-              href={getWhatsAppLink("Halo Vila Yura, saya ingin bertanya tentang reservasi villa.")}
+              href={getWhatsAppLink("Halo Yura Villa, saya ingin bertanya tentang reservasi villa.")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 glass-button-gold text-xs font-sans font-semibold uppercase tracking-widest px-6 py-3 rounded-full hover:scale-105 transition-all duration-300 shadow-md"
